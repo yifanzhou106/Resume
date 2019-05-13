@@ -180,6 +180,7 @@ progress::-moz-progress-value {
 
 .weixin img{
     width: 200px;
+    margin-top: 20px;
 }
 
 .left-label {
