@@ -180,7 +180,6 @@ progress::-moz-progress-value {
 
 .weixin img{
     width: 200px;
-    margin-top: 20px;
 }
 
 .left-label {
@@ -192,8 +191,8 @@ progress::-moz-progress-value {
     margin: 0 auto;
     margin-top:20px;
     margin-bottom: 10px;
-    background-image:url('https://avatars0.githubusercontent.com/u/21081491?v=3&s=460');
-    background-size: 120%;
+    background-image:url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1497969227&di=7ac2cc8c142390ec513990a8724f49a5&imgtype=jpg&er=1&src=http%3A%2F%2Fgnat-tang-shared-image.qiniudn.com%2FDVORAK_PROGRAMMER_EXTENDED0.2.png');
+    background-size: 250%;
     background-position:center;
     border-radius:50%;
     border:5px solid #607d8b;
