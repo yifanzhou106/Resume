@@ -178,10 +178,10 @@
                      </li>
                   </ul>
                   <h3>Gaia Project游戏AI开发[Typescript, Node.js, React] </h3>
+                  <a href="./static/image/gaia_project.pdf">(海报链接)</a>
                   <ul>
                      <li>
                         <p>根据游戏手册编写游戏基本逻辑 </p>
-                        <a href="./static/image/gaia_project.pdf">(海报链接)</a>
                      </li>
                      <li>
                         <p>使用React作为前端，Node.js作为后端。于后端分别实现基于随机算法，Minimax算法以及Backpropagation算法的AI并提供相应REST API供前端调用</p>
@@ -214,7 +214,7 @@
                   </ul>
                   <ul >
                      <li>
-                        <p>每一个前端请求和主节点请求分别被标记一个id，使得当请求从前端发送到主节点再从主节点同步到所有副节点之间的任一时刻，主节点出错后，新选出的主节点能够正确地重新执行用户的请求，并保证数据不会出错</p>
+                        <p>为每个前端和主节点消息引入UUID。 通过在每个前端请求的主节点和辅助节点之间同步状态来保证强一致性。</p>
                      </li>
                   </ul>
                </div>
