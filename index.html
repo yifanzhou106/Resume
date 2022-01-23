@@ -13,7 +13,7 @@
    <body>
       <div class="container" id="cv" style="height: 100%">
          <div class="side" style="height: 100%; padding-top: 30px;">
-            <a href="./chinese.html">简体中文</a>
+<!--            <a href="./chinese.html">简体中文</a>-->
             <div class="me" style="margin-top: +50px" >
                <h1 id="username" >Yifan Zhou</h1>
                <h4 id="persona-tag" >Seeking full time software engineer position in backend development.</h4>
@@ -129,6 +129,22 @@
             <div class="work info-unit right-list">
                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">Professional Experience</span></h2>
                <hr>
+               <h3>Java Developer, 09/2019-Now, Electronic Arts Digital Platform, Shanghai</h3>
+               <p>Electronic Arts (EA) is now the world's premier producer and publisher of interactive entertainment software. I'am in the Lockbox team at EADP in Shanghai and has been engaged in back-end development for two years. The team is mainly responsible for the payment flow for game purchases, memberships, gift, etc on the PC platform.</p>
+               <ul >
+                  <li>
+                     <p><strong>2021.7 ~ Now</strong> Design and develop payment methods (Dana, GoPay, LinePay, Toss) in Indonesia, Japan and other countries. Integrated these payment method with the operator (Boku)</p>
+                  </li>
+                  <li style="margin-top: -10px">
+                     <p><strong>2021.3 ~ 2021.6</strong> Design and develop Spring-based RESTful API. In order to realize the increase of the query for the user group, modify, delete, and store data in database shards, optimizing the efficiency of database read and write. (Java + MySQL)</p>
+                  </li>
+                  <li style="margin-top: -10px">
+                     <p><strong>2021.1 ~ 2021.3</strong> Accessibility Support for the website. To minimize the company's exposure to Americans with Disabilities Act (ADA) legal action insurance, as well as improving usability and satisfaction for all partners, the payment flow has been optimized to support accessibility. (JS)</p>
+                  </li>
+                  <li style="margin-top: -10px">
+                     <p><strong>2020.6 ~ 2020.9</strong> Design and develop the Player Settings project to achieve the requirements of centralizing all partner settings. Partners by using the protobuf template makes it easier to add new settings for different purposes, greatly improving flexibility. (Scala + Liquibase + Cassandra)</p>
+                  </li>
+               </ul>
                <h3>IT Specialist, 06/2016-08/2017, ASUS, Fremont, CA</h3>
                <p>Engaged in full-stack development for 1 year and 3 months in ASUS IT department. Mainly responsible for updating and maintaining ROG webpage (a sub-brand of ASUS), back-end development, database maintenance and analytics.</p>
                <ul >
@@ -162,54 +178,54 @@
                   </li>
                </ul>
                <div class="project info-unit right-list">
-                  <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">Individal Project</span></h2>
+                  <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">Project</span></h2>
                   <hr>
-                  <h3>Ponzi Scheme Detection[Machine Learning, Python]</h3>
+                  <h3><strong>2021.7 ~ Now</strong> Design and develop payment methods (Dana, GoPay, LinePay, Toss) in Indonesia, Japan and other countries. Integrated these payment method with the operator (Boku)</h3>
                   <ul>
                      <li>
-                        <p>Built a web crawler to download raw data from the Ethereum website and store it in json files written in Python without using 3rd party packages. Approximately 1 billion transaction records(80GB) were downloaded.</p>
+                        <p>Investigate the API through the documentation. Communicate with the Boku team and design a reasonable and efficient payment method for the existing EA payment flows.</p>
                      </li>
                      <li>
-                        <p>Filtered out about 50GB of available data based on time, transaction value, etc. </p>
+                        <p>Integrate with Boku operator to backend commerce service</p>
                      </li>
                      <li>
-                        <p>Introduced sklearn to build RF, SGD, LR, KNN and XGBoost models and trained each model separately.</p>
+                        <p>Design and add Boku emulators for local and Integration environment testing.</p>
                      </li>
                      <li>
-                        <p>Evaluated model accuracies by using 10-fold cross validation with a maximum accuracy of 99.9256%(XGBoost).</p>
+                        <p>Add test methods, including various checkout flows (games, subscriptions, gifts, pre-orders, refunds).</p>
+                     </li>
+                     <li>
+                        <p>Add new payment method UI to the front-end (website of Origin). </p>
                      </li>
                   </ul>
-                  <h3>Expandi AI for Gaia Project Game[Typescript, React]</h3><a href="./static/image/gaia_project.pdf">Poster link </a>
+                  <h3><strong>2021.3 ~ 2021.6</strong> Design and develop Spring-based RESTful API. In order to realize the increase of the query for the user group, modify, delete, and store data in database shards, optimizing the efficiency of database read and write. (Java + MySQL)</h3>
                   <ul>
                      <li>
-                        <p>Implemented game logic based on game manual in Node.js backend. Introduced web page game board by using React.</p>
+                        <p>Design MySQL table and its sharding logic.</p>
                      </li>
                      <li>
-                        <p>Programmed different AI opponents based on random algorithm, Minimax algorithm and Backpropagation algorithm in backend and provided corresponding REST API for frontend call.</p>
-                     </li>
-                     <li>
-                        <p>Used Firebase to store game state and player information.</p>
+                        <p>Add Spring-based API to realize the complete business logic process.</p>
                      </li>
                   </ul>
-                  <h3>Bit Stream[Java]</h3>
+                  <h3><strong>2021.1 ~ 2021.3</strong> Accessibility Support for the website. To minimize the company's exposure to Americans with Disabilities Act (ADA) legal action insurance, as well as improving usability and satisfaction for all partners, the payment flow has been optimized to support accessibility. (JS)</h3>
                   <ul>
                      <li>
-                        <p>Implemented a bitstream system consisting of 1 tracker and 10 users using Java Servlet and Jetty server.</p>
+                        <p>Full keyboard navigation and interaction</p>
                      </li>
                      <li>
-                        <p>Divided files into blocks based on its size. Organized the seed file by using SHA-1 hash and the target address of each block.</p>
+                        <p>Support screen readers</p>
                      </li>
                      <li>
-                        <p>Implemented dynamic resource direction if a file provider goes offline during the download process.</p>
+                        <p>Redesign and make the general architecture and hierarchy of the page clear and meaningful to all users</p>
                      </li>
                   </ul>
-                  <h3>Distributed Systems[Java]</h3>
+                  <h3><strong>2020.6 ~ 2020.9</strong> Design and develop the Player Settings project to achieve the requirements of centralizing all partner settings. Partner by using the protobuf template makes it easier to add new settings for different purposes, greatly improving flexibility. (Scala + Liquibase + Cassandra)</h3>
                   <ul>
                      <li>
-                        <p>Implemented a strongly consistent distributed system by using Passive Replication and Bully Algorithm. Designed the system architecture with 2 front ends, 1 primary node and 3 secondary nodes.</p>
+                        <p>The service supports both REST and gRPC entry.</p>
                      </li>
                      <li>
-                        <p>Introduced UUID for each frontend and primary node message. Guaranteed strong consistency by syncing state between primary node and secondary nodes for every frontend request.</p>
+                        <p>Use Cache storage to optimize service efficiency (Redis)</p>
                      </li>
                   </ul>
                </div>
